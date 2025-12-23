@@ -10,4 +10,7 @@ sudo pacman -Rs --noconfirm gnome-contacts gnome-weather gnome-maps snapshot yel
 sudo pacman -S --noconfirm --needed base-devel wget curl p7zip kitty fzf fd ripgrep bob flatpak zathura zathura-pdf-poppler openssh gcc python make cmake nodejs npm rustup ttf-jetbrains-mono-nerd tree-sitter-cli pyright lua-language-server rust-analyzer tinymist typst uv gcc-fortran r  
 ```
 
-
+### R Setup
+```R
+install.packages(c("tidyverse", "data.table", "janitor", "readxl", "openxlsx", "haven", "arrow", "lubridate", "fs", "here", "skimr", "ggthemes", "viridis", "patchwork", "modelr", "broom", "caret", "tidymodels", "rmarkdown", "knitr", "tinytex", "shiny", "roxygen2"))
+```
