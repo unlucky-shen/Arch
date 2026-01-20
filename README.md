@@ -1,4 +1,4 @@
-## Setup auto-cpufreq
+## Auto-cpufreq
 ```bash
 # Install & Setup
 git clone https://github.com/AdnanHodzic/auto-cpufreq.git
@@ -8,8 +8,7 @@ cd auto-cpufreq && sudo ./auto-cpufreq-installer
 sudo auto-cpufreq --install
 ```
 
-# Nvidia tweaks
-
+## Nvidia tweaks
 1. Install necessary packages,
 
 ```bash
