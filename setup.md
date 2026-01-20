@@ -7,7 +7,7 @@ sudo pacman -Rs --noconfirm gnome-contacts gnome-weather gnome-maps snapshot yel
 
 ### essentials
 ```bash
-sudo pacman -S --noconfirm --needed base-devel wget curl p7zip kitty fzf fd ripgrep bob flatpak zathura zathura-pdf-poppler openssh gcc python make cmake nodejs npm rustup ttf-jetbrains-mono-nerd tree-sitter-cli pyright lua-language-server rust-analyzer tinymist typst uv gcc-fortran r  
+sudo pacman -S --noconfirm --needed base-devel wget curl p7zip kitty fzf fd ripgrep vim bob flatpak zathura zathura-pdf-poppler openssh gcc python make cmake nodejs npm rustup ttf-jetbrains-mono-nerd tree-sitter-cli pyright lua-language-server rust-analyzer tinymist typst uv gcc-fortran r eza bat swww 
 ```
 
 ### r packages
