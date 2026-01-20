@@ -25,6 +25,7 @@ options root=UUID=... rw nvidia-drm.modeset=1 nvidia-drm.fbdev=1
 ``` nvidia.conf
 options nvidia-drm modeset=1
 options nvidia NVreg_DynamicPowerManagement=0x02
+options nvidia NVreg_PreserveVideoMemoryAllocations=1
 ```
 
 4. Enable NVIDIA Services,
