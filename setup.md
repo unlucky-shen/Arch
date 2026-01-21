@@ -1,6 +1,6 @@
 # archlinux setup
 
-### Nvidia Proprietary Drivers
+### Nvidia Open Drivers
 
 1. Enable `multilib` library at `/etc/pacman.conf`.
 
