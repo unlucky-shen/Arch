@@ -44,17 +44,3 @@ and then, regenerate initramfs,
 ```bash
 sudo mkinitcpio -P
 ```
-
-6. If on Hyprland, add on the very top of config,
-```hyprland.conf
-# Nvidia on Wayland
-env = LIBVA_DRIVER_NAME,nvidia
-env = __GLX_VENDOR_LIBRARY_NAME,nvidia
-env = ELECTRON_OZONE_PLATFORM_HINT,auto
-env = NVD_BACKEND,direct
-env = XDG_SESSION_TYPE,wayland
-env = GBM_BACKEND,nvidia-drm
-cursor {
-    no_hardware_cursors = true
-}
-```
